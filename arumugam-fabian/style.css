@@ -1,0 +1,47 @@
+@media (max-width: 768px){
+    #navbar {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center;
+        flex-wrap: wrap; /* allow the flex items to wrap onto multiple lines */
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+}
+
+#main-doc {
+    margin-left: 20%;
+    padding: 1rem;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: blanchedalmond;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.1rem;
+    text-decoration: none;
+    color: blue;
+}
+
+.nav-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.main-section {
+    margin-bottom: 2rem;
+}
